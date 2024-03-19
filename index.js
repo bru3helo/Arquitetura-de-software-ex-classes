@@ -16,6 +16,6 @@ http.createServer((req, res) => {
         "Aprovado": turma.Aprovado(),
         "Frequencia": turmaPresencial.AprovadoFrequencia()
     }));
-}).listen(5500, ()=>{
-    console.log(" 5500 ");
+}).listen(3001, ()=>{
+    console.log(" 3001 ");
 });
