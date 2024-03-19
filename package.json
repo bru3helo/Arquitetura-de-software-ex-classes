@@ -1,11 +1,11 @@
 {
   "name": "exercicio-classes",
-  "version": "1.0.0",
-  "description": "",
+  "version": "5.1.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bruna",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
