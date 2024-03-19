@@ -5,7 +5,3 @@ import TurmaPresencial from "./Modelos/TurmaPresencial";
 const aluno = new Aluno('Bruna', 'Bruna', '2525240');
 const turmaAluno = new Turma('Bruna', 'Bruna', '2525240', 'AS64B', '3');
 const turmaPresencial = new TurmaPresencial('Bruna', 'Bruna', '2525240', 'AS64B', '3', '95');
-
-console.log(aluno);
-console.log(turmaAluno);
-console.log(turmaPresencial);
