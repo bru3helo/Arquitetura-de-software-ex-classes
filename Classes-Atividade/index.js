@@ -1,8 +1,11 @@
-import Student from "./Modelos/Aluno";
-import Class from "./Modelos/Turma";
-import PresencialClass from "./Modelos/TurmaPresencial";
-import http from 'http';
+import Aluno from "./Modelos/Aluno";
+import Turma from "./Modelos/Turma";
+import TurmaPresencial from "./Modelos/TurmaPresencial";
 
-let student = new Student('Bruna', 'Bruna', '2525240');
-let classStudent = new Class('Bruna', 'Bruna', '2525240', 'AS64B', '3');
-let presencialClass = new PresencialClass('Bruna', 'Bruna', '2525240', 'AS64B', '3', '95');
+const aluno = new Aluno('Bruna', 'Bruna', '2525240');
+const turmaAluno = new Turma('Bruna', 'Bruna', '2525240', 'AS64B', '3');
+const turmaPresencial = new TurmaPresencial('Bruna', 'Bruna', '2525240', 'AS64B', '3', '95');
+
+console.log(aluno);
+console.log(turmaAluno);
+console.log(turmaPresencial);
